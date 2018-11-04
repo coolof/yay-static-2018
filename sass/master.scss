@@ -307,3 +307,70 @@ a {
     }
   }
 }
+
+
+/* Rosource */
+.recource {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  &.container {
+    max-width: rem(800);
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+
+    img {
+      width: 52px;
+      height: 52px;
+    }
+  }
+
+  p {
+    margin: 0 0 2rem;
+
+    @include mq($desktop12) {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+
+    @include mq($desktop15) {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  .lead {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+
+    @include mq($desktop15) {
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+    }
+  }
+}
+
+.note {
+  background-color: $flamingo;
+  padding: 2rem;
+  margin: 3rem 0;
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $tacha;
+
+    &:hover {
+      color: $pastel_green;
+    }
+  }
+}

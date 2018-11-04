@@ -449,3 +449,77 @@ a {
     margin-bottom: 4.5rem;
   }
 }
+
+/* Rosource */
+/* line 313, ../sass/master.scss */
+.recource {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/* line 317, ../sass/master.scss */
+.recource.container {
+  max-width: 50rem;
+}
+/* line 321, ../sass/master.scss */
+.recource .logo {
+  margin-bottom: 2rem;
+}
+/* line 324, ../sass/master.scss */
+.recource .logo img {
+  width: 52px;
+  height: 52px;
+}
+/* line 330, ../sass/master.scss */
+.recource p {
+  margin: 0 0 2rem;
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 330, ../sass/master.scss */
+  .recource p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 330, ../sass/master.scss */
+  .recource p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+/* line 344, ../sass/master.scss */
+.recource .lead {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+@media screen and (min-width: 1312px) {
+  /* line 344, ../sass/master.scss */
+  .recource .lead {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* line 355, ../sass/master.scss */
+.note {
+  background-color: #EF4B40;
+  padding: 2rem;
+  margin: 3rem 0;
+}
+/* line 360, ../sass/master.scss */
+.note p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+/* line 365, ../sass/master.scss */
+.note p:last-child {
+  margin-bottom: 0;
+}
+/* line 369, ../sass/master.scss */
+.note a {
+  color: #D7D663;
+}
+/* line 372, ../sass/master.scss */
+.note a:hover {
+  color: #64DE9B;
+}
