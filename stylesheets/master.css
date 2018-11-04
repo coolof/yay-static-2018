@@ -1,0 +1,451 @@
+/* line 5, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Variables */
+/* line 27, ../sass/master.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 31, ../sass/master.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 35, ../sass/master.scss */
+body {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-color: #2F1E76;
+  color: #fff;
+  font-family: 'alma_mono', monospace;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 35, ../sass/master.scss */
+  body {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 35, ../sass/master.scss */
+  body {
+    font-size: 1.25rem;
+    line-height: 2.0rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 35, ../sass/master.scss */
+  body {
+    font-size: 1.25rem;
+    line-height: 2.0rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 35, ../sass/master.scss */
+  body {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* line 62, ../sass/master.scss */
+h1 {
+  color: #D7D663;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 62, ../sass/master.scss */
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 62, ../sass/master.scss */
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 62, ../sass/master.scss */
+  h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 62, ../sass/master.scss */
+  h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+
+/* line 88, ../sass/master.scss */
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 88, ../sass/master.scss */
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 88, ../sass/master.scss */
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 88, ../sass/master.scss */
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 88, ../sass/master.scss */
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* line 118, ../sass/master.scss */
+a {
+  text-decoration: none;
+  color: #64DE9B;
+}
+@media (hover: hover) {
+  /* line 118, ../sass/master.scss */
+  a {
+    transition: color 0.5s ease;
+  }
+  /* line 125, ../sass/master.scss */
+  a:hover {
+    color: #EF4B40;
+  }
+}
+
+/* line 131, ../sass/master.scss */
+.container {
+  max-width: 83rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 131, ../sass/master.scss */
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 131, ../sass/master.scss */
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 131, ../sass/master.scss */
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 131, ../sass/master.scss */
+  .container {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+}
+
+/* Intro */
+/* line 156, ../sass/master.scss */
+.intro {
+  padding: 3rem 0 0;
+}
+/* line 159, ../sass/master.scss */
+.intro span {
+  white-space: nowrap;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 156, ../sass/master.scss */
+  .intro {
+    padding-top: 6rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 156, ../sass/master.scss */
+  .intro {
+    padding-top: 6rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 156, ../sass/master.scss */
+  .intro {
+    padding-top: 6rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 156, ../sass/master.scss */
+  .intro {
+    padding-top: 6rem;
+  }
+}
+
+/* line 177, ../sass/master.scss */
+.olle {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+/* line 186, ../sass/master.scss */
+.olle img {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: -5%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 177, ../sass/master.scss */
+  .olle {
+    width: 144px;
+    height: 144px;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 177, ../sass/master.scss */
+  .olle {
+    width: 144px;
+    height: 144px;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 177, ../sass/master.scss */
+  .olle {
+    width: 144px;
+    height: 144px;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 177, ../sass/master.scss */
+  .olle {
+    width: 172px;
+    height: 172px;
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 216, ../sass/master.scss */
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 216, ../sass/master.scss */
+  .lead {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 216, ../sass/master.scss */
+  .lead {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 216, ../sass/master.scss */
+  .lead {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 216, ../sass/master.scss */
+  .lead {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+/* line 240, ../sass/master.scss */
+.intro__more {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+/* line 250, ../sass/master.scss */
+.logo--intro {
+  margin-right: 1.5rem;
+}
+/* line 253, ../sass/master.scss */
+.logo--intro img {
+  display: block;
+}
+
+/* Lists */
+/* line 260, ../sass/master.scss */
+.lists {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  background-color: #EF4B40;
+}
+/* line 265, ../sass/master.scss */
+.lists__list {
+  margin-bottom: 2.5rem;
+}
+/* line 268, ../sass/master.scss */
+.lists__list:last-child {
+  margin-bottom: 0;
+}
+/* line 273, ../sass/master.scss */
+.lists a {
+  color: #D7D663;
+}
+/* line 276, ../sass/master.scss */
+.lists a:hover {
+  color: #fff;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 260, ../sass/master.scss */
+  .lists {
+    padding: 5rem 0;
+  }
+  /* line 284, ../sass/master.scss */
+  .lists__list {
+    margin-bottom: 4.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  /* line 260, ../sass/master.scss */
+  .lists {
+    padding: 5rem 0;
+  }
+  /* line 291, ../sass/master.scss */
+  .lists__list {
+    margin-bottom: 4.5rem;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1311px) {
+  /* line 260, ../sass/master.scss */
+  .lists {
+    padding: 5rem 0;
+  }
+  /* line 298, ../sass/master.scss */
+  .lists__list {
+    margin-bottom: 4.5rem;
+  }
+}
+@media screen and (min-width: 1312px) {
+  /* line 260, ../sass/master.scss */
+  .lists {
+    padding: 5rem 0;
+  }
+  /* line 305, ../sass/master.scss */
+  .lists__list {
+    margin-bottom: 4.5rem;
+  }
+}

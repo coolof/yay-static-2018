@@ -1,0 +1,309 @@
+@import "compass/reset";
+
+@function rem($val) {
+  @return ($val / 16) * 1rem;
+}
+
+@mixin mq($media: $landscape) {
+  @media #{$media} { @content; }
+}
+
+/* Variables */
+$meteorite: #2F1E76;//Purple (bg)
+$pastel_green: #64DE9B;//Green
+$tacha: #D7D663;//Yellow
+$flamingo: #EF4B40;//Red
+
+$max-width: 1184;
+$padding: 72;
+$container-width: rem($max-width + $padding * 2);
+
+$portrait: "screen and (min-width: 768px) and (max-width: 1023px)";//iPad inportrait mode
+$landscape: "screen and (min-width: 1024px)  and (max-width: 1151px)";//iPad in landscape mode
+$desktop12: "screen and (min-width: 1152px) and (max-width: 1311px)";//13" Laptop
+$desktop15: "screen and (min-width: 1312px)";//15" Laptops+
+
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-color: $meteorite;
+  color: #fff;
+  font-family: 'alma_mono', monospace;
+  font-size: 1rem;
+  line-height: 1.75rem;
+
+  @include mq($portrait) {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  @include mq($landscape) {
+    font-size: 1.25rem;
+    line-height: 2.0rem;
+  }
+  @include mq($desktop12) {
+    font-size: 1.25rem;
+    line-height: 2.0rem;
+  }
+  @include mq($desktop15) {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+}
+
+h1 {
+  color: $tacha;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+
+  @include mq($portrait) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  @include mq($landscape) {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  @include mq($desktop12) {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  @include mq($desktop15) {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+
+  @include mq($portrait) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  @include mq($landscape) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  @include mq($desktop12) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  @include mq($desktop15) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $pastel_green;
+
+  @media (hover: hover) {
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: $flamingo;
+    }
+  }
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding-left: rem(32);
+  padding-right: rem(32);
+
+  @include mq($portrait) {
+    padding-left: rem(64);
+    padding-right: rem(64);
+  }
+  @include mq($landscape) {
+    padding-left: rem(64);
+    padding-right: rem(64);
+  }
+  @include mq($desktop12) {
+    padding-left: rem(64);
+    padding-right: rem(64);
+  }
+  @include mq($desktop15) {
+    padding-left: rem($padding);
+    padding-right: rem($padding);
+  }
+}
+
+/* Intro */
+.intro {
+  padding: 3rem 0 0;
+
+  span {
+    white-space: nowrap;
+  }
+
+  @include mq($portrait) {
+    padding-top: 6rem;
+  }
+  @include mq($landscape) {
+    padding-top: 6rem;
+  }
+  @include mq($desktop12) {
+    padding-top: 6rem;
+  }
+  @include mq($desktop15) {
+    padding-top: 6rem;
+  }
+}
+
+.olle {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: rem(32);
+
+  img {
+    width: auto;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: -5%;
+  }
+
+  @include mq($portrait) {
+    width: 144px;
+    height: 144px;
+    margin-bottom: rem(48);
+  }
+  @include mq($landscape) {
+    width: 144px;
+    height: 144px;
+    margin-bottom: rem(48);
+  }
+  @include mq($desktop12) {
+    width: 144px;
+    height: 144px;
+    margin-bottom: rem(48);
+  }
+  @include mq($desktop15) {
+    width: 172px;
+    height: 172px;
+    margin-bottom: rem(48);
+  }
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+
+  @include mq($portrait) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  @include mq($landscape) {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  @include mq($desktop12) {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  @include mq($desktop15) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+.intro__more {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.logo--intro {
+  margin-right: 1.5rem;
+
+  img {
+    display: block;
+  }
+}
+
+
+/* Lists */
+.lists {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  background-color: $flamingo;
+
+  &__list {
+    margin-bottom: 2.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: $tacha;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  @include mq($portrait) {
+    padding: 5rem 0;
+
+    &__list {
+      margin-bottom: 4.5rem;
+    }
+  }
+  @include mq($landscape) {
+    padding: 5rem 0;
+
+    &__list {
+      margin-bottom: 4.5rem;
+    }
+  }
+  @include mq($desktop12) {
+    padding: 5rem 0;
+
+    &__list {
+      margin-bottom: 4.5rem;
+    }
+  }
+  @include mq($desktop15) {
+    padding: 5rem 0;
+
+    &__list {
+      margin-bottom: 4.5rem;
+    }
+  }
+}
