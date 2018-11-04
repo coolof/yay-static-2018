@@ -429,3 +429,50 @@ strong {
     }
   }
 }
+
+@supports (animation-fill-mode: forwards) {
+  .intro {
+    .olle,h1,p,.intro__more {
+      opacity: 0;
+
+      animation: show 0.3s ease;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .intro, .lists {
+    h2,p {
+      opacity: 0;
+
+      animation: show 0.4s ease;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .intro__inner {
+    @for $i from 1 to 16 {
+      > *:nth-child(#{$i}) {
+        animation-delay: ($i - 1) * 0.1s;
+      }
+    }
+  }
+
+  .lists__list {
+    @for $i from 1 to 16 {
+      > *:nth-child(#{$i}) {
+        animation-delay: ($i + 1) * 0.2s;
+      }
+    }
+  }
+
+  @keyframes show {
+    from {
+      transform: translateY(2rem);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
