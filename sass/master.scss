@@ -128,6 +128,10 @@ a {
   }
 }
 
+strong {
+  font-weight: bold;
+}
+
 .container {
   max-width: $container-width;
   margin: 0 auto;
@@ -182,6 +186,7 @@ a {
   display: flex;
   justify-content: flex-end;
   margin-bottom: rem(32);
+  margin-left: 1rem;
 
   img {
     width: auto;
@@ -310,7 +315,19 @@ a {
 
 
 /* Rosource */
-.recource {
+.back-to-front {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.resource--start {
+  .lead {
+    margin-bottom: 3rem;
+  }
+}
+
+.resource {
   padding-top: 4rem;
   padding-bottom: 4rem;
 
@@ -371,6 +388,44 @@ a {
 
     &:hover {
       color: $pastel_green;
+    }
+  }
+}
+
+
+/* Author */
+.author {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  //text-align: center;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  border-top: 2px solid $flamingo;
+
+  &__info {
+    max-width: rem(512);
+
+  }
+
+  .olle {
+    width: rem(128);
+    height: rem(128);
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    span {
+      white-space: nowrap;
     }
   }
 }

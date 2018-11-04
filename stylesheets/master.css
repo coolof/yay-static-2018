@@ -210,6 +210,11 @@ a {
 }
 
 /* line 131, ../sass/master.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 135, ../sass/master.scss */
 .container {
   max-width: 83rem;
   margin: 0 auto;
@@ -217,28 +222,28 @@ a {
   padding-right: 2rem;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 131, ../sass/master.scss */
+  /* line 135, ../sass/master.scss */
   .container {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1151px) {
-  /* line 131, ../sass/master.scss */
+  /* line 135, ../sass/master.scss */
   .container {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 @media screen and (min-width: 1152px) and (max-width: 1311px) {
-  /* line 131, ../sass/master.scss */
+  /* line 135, ../sass/master.scss */
   .container {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 @media screen and (min-width: 1312px) {
-  /* line 131, ../sass/master.scss */
+  /* line 135, ../sass/master.scss */
   .container {
     padding-left: 4.5rem;
     padding-right: 4.5rem;
@@ -246,40 +251,40 @@ a {
 }
 
 /* Intro */
-/* line 156, ../sass/master.scss */
+/* line 160, ../sass/master.scss */
 .intro {
   padding: 3rem 0 0;
 }
-/* line 159, ../sass/master.scss */
+/* line 163, ../sass/master.scss */
 .intro span {
   white-space: nowrap;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 156, ../sass/master.scss */
+  /* line 160, ../sass/master.scss */
   .intro {
     padding-top: 6rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1151px) {
-  /* line 156, ../sass/master.scss */
+  /* line 160, ../sass/master.scss */
   .intro {
     padding-top: 6rem;
   }
 }
 @media screen and (min-width: 1152px) and (max-width: 1311px) {
-  /* line 156, ../sass/master.scss */
+  /* line 160, ../sass/master.scss */
   .intro {
     padding-top: 6rem;
   }
 }
 @media screen and (min-width: 1312px) {
-  /* line 156, ../sass/master.scss */
+  /* line 160, ../sass/master.scss */
   .intro {
     padding-top: 6rem;
   }
 }
 
-/* line 177, ../sass/master.scss */
+/* line 181, ../sass/master.scss */
 .olle {
   width: 96px;
   height: 96px;
@@ -288,8 +293,9 @@ a {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
-/* line 186, ../sass/master.scss */
+/* line 191, ../sass/master.scss */
 .olle img {
   width: auto;
   height: 100%;
@@ -298,7 +304,7 @@ a {
   margin-right: -5%;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 177, ../sass/master.scss */
+  /* line 181, ../sass/master.scss */
   .olle {
     width: 144px;
     height: 144px;
@@ -306,7 +312,7 @@ a {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1151px) {
-  /* line 177, ../sass/master.scss */
+  /* line 181, ../sass/master.scss */
   .olle {
     width: 144px;
     height: 144px;
@@ -314,7 +320,7 @@ a {
   }
 }
 @media screen and (min-width: 1152px) and (max-width: 1311px) {
-  /* line 177, ../sass/master.scss */
+  /* line 181, ../sass/master.scss */
   .olle {
     width: 144px;
     height: 144px;
@@ -322,7 +328,7 @@ a {
   }
 }
 @media screen and (min-width: 1312px) {
-  /* line 177, ../sass/master.scss */
+  /* line 181, ../sass/master.scss */
   .olle {
     width: 172px;
     height: 172px;
@@ -330,7 +336,7 @@ a {
   }
 }
 
-/* line 216, ../sass/master.scss */
+/* line 221, ../sass/master.scss */
 .lead {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -338,35 +344,35 @@ a {
   margin-bottom: 2.5rem;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 216, ../sass/master.scss */
+  /* line 221, ../sass/master.scss */
   .lead {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1151px) {
-  /* line 216, ../sass/master.scss */
+  /* line 221, ../sass/master.scss */
   .lead {
     font-size: 1.75rem;
     line-height: 2.25rem;
   }
 }
 @media screen and (min-width: 1152px) and (max-width: 1311px) {
-  /* line 216, ../sass/master.scss */
+  /* line 221, ../sass/master.scss */
   .lead {
     font-size: 1.75rem;
     line-height: 2.25rem;
   }
 }
 @media screen and (min-width: 1312px) {
-  /* line 216, ../sass/master.scss */
+  /* line 221, ../sass/master.scss */
   .lead {
     font-size: 2rem;
     line-height: 2.5rem;
   }
 }
 
-/* line 240, ../sass/master.scss */
+/* line 245, ../sass/master.scss */
 .intro__more {
   display: flex;
   flex-flow: row wrap;
@@ -377,149 +383,197 @@ a {
   margin-top: 2.5rem;
 }
 
-/* line 250, ../sass/master.scss */
+/* line 255, ../sass/master.scss */
 .logo--intro {
   margin-right: 1.5rem;
 }
-/* line 253, ../sass/master.scss */
+/* line 258, ../sass/master.scss */
 .logo--intro img {
   display: block;
 }
 
 /* Lists */
-/* line 260, ../sass/master.scss */
+/* line 265, ../sass/master.scss */
 .lists {
   margin-top: 3rem;
   padding: 3rem 0;
   background-color: #EF4B40;
 }
-/* line 265, ../sass/master.scss */
+/* line 270, ../sass/master.scss */
 .lists__list {
   margin-bottom: 2.5rem;
 }
-/* line 268, ../sass/master.scss */
+/* line 273, ../sass/master.scss */
 .lists__list:last-child {
   margin-bottom: 0;
 }
-/* line 273, ../sass/master.scss */
+/* line 278, ../sass/master.scss */
 .lists a {
   color: #D7D663;
 }
-/* line 276, ../sass/master.scss */
+/* line 281, ../sass/master.scss */
 .lists a:hover {
   color: #fff;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 260, ../sass/master.scss */
+  /* line 265, ../sass/master.scss */
   .lists {
     padding: 5rem 0;
   }
-  /* line 284, ../sass/master.scss */
+  /* line 289, ../sass/master.scss */
   .lists__list {
     margin-bottom: 4.5rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1151px) {
-  /* line 260, ../sass/master.scss */
+  /* line 265, ../sass/master.scss */
   .lists {
     padding: 5rem 0;
   }
-  /* line 291, ../sass/master.scss */
+  /* line 296, ../sass/master.scss */
   .lists__list {
     margin-bottom: 4.5rem;
   }
 }
 @media screen and (min-width: 1152px) and (max-width: 1311px) {
-  /* line 260, ../sass/master.scss */
+  /* line 265, ../sass/master.scss */
   .lists {
     padding: 5rem 0;
   }
-  /* line 298, ../sass/master.scss */
+  /* line 303, ../sass/master.scss */
   .lists__list {
     margin-bottom: 4.5rem;
   }
 }
 @media screen and (min-width: 1312px) {
-  /* line 260, ../sass/master.scss */
+  /* line 265, ../sass/master.scss */
   .lists {
     padding: 5rem 0;
   }
-  /* line 305, ../sass/master.scss */
+  /* line 310, ../sass/master.scss */
   .lists__list {
     margin-bottom: 4.5rem;
   }
 }
 
 /* Rosource */
-/* line 313, ../sass/master.scss */
-.recource {
+/* line 318, ../sass/master.scss */
+.back-to-front {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* line 325, ../sass/master.scss */
+.resource--start .lead {
+  margin-bottom: 3rem;
+}
+
+/* line 330, ../sass/master.scss */
+.resource {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-/* line 317, ../sass/master.scss */
-.recource.container {
+/* line 334, ../sass/master.scss */
+.resource.container {
   max-width: 50rem;
 }
-/* line 321, ../sass/master.scss */
-.recource .logo {
+/* line 338, ../sass/master.scss */
+.resource .logo {
   margin-bottom: 2rem;
 }
-/* line 324, ../sass/master.scss */
-.recource .logo img {
+/* line 341, ../sass/master.scss */
+.resource .logo img {
   width: 52px;
   height: 52px;
 }
-/* line 330, ../sass/master.scss */
-.recource p {
+/* line 347, ../sass/master.scss */
+.resource p {
   margin: 0 0 2rem;
 }
 @media screen and (min-width: 1152px) and (max-width: 1311px) {
-  /* line 330, ../sass/master.scss */
-  .recource p {
+  /* line 347, ../sass/master.scss */
+  .resource p {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
 @media screen and (min-width: 1312px) {
-  /* line 330, ../sass/master.scss */
-  .recource p {
+  /* line 347, ../sass/master.scss */
+  .resource p {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
-/* line 344, ../sass/master.scss */
-.recource .lead {
+/* line 361, ../sass/master.scss */
+.resource .lead {
   font-size: 1.75rem;
   line-height: 2.25rem;
 }
 @media screen and (min-width: 1312px) {
-  /* line 344, ../sass/master.scss */
-  .recource .lead {
+  /* line 361, ../sass/master.scss */
+  .resource .lead {
     font-size: 1.75rem;
     line-height: 2.25rem;
   }
 }
 
-/* line 355, ../sass/master.scss */
+/* line 372, ../sass/master.scss */
 .note {
   background-color: #EF4B40;
   padding: 2rem;
   margin: 3rem 0;
 }
-/* line 360, ../sass/master.scss */
+/* line 377, ../sass/master.scss */
 .note p {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-/* line 365, ../sass/master.scss */
+/* line 382, ../sass/master.scss */
 .note p:last-child {
   margin-bottom: 0;
 }
-/* line 369, ../sass/master.scss */
+/* line 386, ../sass/master.scss */
 .note a {
   color: #D7D663;
 }
-/* line 372, ../sass/master.scss */
+/* line 389, ../sass/master.scss */
 .note a:hover {
   color: #64DE9B;
+}
+
+/* Author */
+/* line 397, ../sass/master.scss */
+.author {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  border-top: 2px solid #EF4B40;
+}
+/* line 407, ../sass/master.scss */
+.author__info {
+  max-width: 32rem;
+}
+/* line 412, ../sass/master.scss */
+.author .olle {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+}
+/* line 419, ../sass/master.scss */
+.author p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+/* line 423, ../sass/master.scss */
+.author p:last-child {
+  margin-bottom: 0;
+}
+/* line 427, ../sass/master.scss */
+.author p span {
+  white-space: nowrap;
 }
